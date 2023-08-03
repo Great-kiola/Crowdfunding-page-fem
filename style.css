@@ -17,3 +17,11 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+:root{
+    --moderateCyan: hsl(176, 50%, 47%);
+    --Darkcyan: hsl(176, 72%, 28%);
+    --Black: hsl(0, 0%, 0%);
+    --Darkgray: hsl(0, 0%, 48%);
+    
+}
