@@ -9,6 +9,10 @@ body {
     min-height: 100vh;
 }
 
+.riserContainer {
+    background: var(--Darkgray);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -23,5 +27,4 @@ body {
     --Darkcyan: hsl(176, 72%, 28%);
     --Black: hsl(0, 0%, 0%);
     --Darkgray: hsl(0, 0%, 48%);
-    
 }
