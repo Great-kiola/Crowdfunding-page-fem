@@ -9,9 +9,17 @@ body {
     min-height: 100vh;
 }
 
+header{
+    position: absolute;
+    top: 0;
+    background-color: var(--Darkgray);
+}
+
 .riserContainer {
     background: var(--Darkgray);
 }
+
+
 
 .attribution {
     font-size: 11px;
