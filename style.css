@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 body {
     line-height: 1.5;
     min-height: 100vh;
+    font-family: 'Commissioner', sans-serif;
 }
 
 header{
