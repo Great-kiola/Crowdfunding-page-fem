@@ -10,9 +10,7 @@ body {
     line-height: 1.5;
     min-height: 100vh;
     font-family: 'Commissioner', sans-serif;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    background-color: hsl(0, 0%, 94%);
 }
 
 header{
@@ -21,8 +19,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 400px;
-    z-index: -1;
+    height: 350px;
 }
 
 header .menus{
@@ -52,24 +49,65 @@ section{
     display: flex;
     justify-content: center;
     text-align: center;
-    /* width: 800px; */
     align-items: center;
-
 }
 
 section .riserContainer{
-    background-color: var(--moderateCyan);
+    background-color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
-
+    gap: 20px;
+    padding: 80px;
+    width: 700px;
+    margin: -50px 0px 20px 0px;
+    z-index: 1;
+    border-radius: 10px;
 }
 
-.Btnbookmark{
+section .riserContainer img{
+    margin: -110px 0px 0px;
+    width: 60px;
+}
+
+section .riserContainer .Btnbookmark{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     gap: 20px;
+}
+
+section .riserContainer .Btnbookmark .btpBtn input{
+    background-color: var(--Darkcyan);
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    color: var(--white);
+}
+
+section .numbers{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+section .aboutProject{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    width: 700px;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 10px;
 }
 
 .riserContainer {
