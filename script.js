@@ -34,11 +34,14 @@ cancelIcon.addEventListener('click', () => {
     overlay.style.display = 'none';
 });
 
-// check.forEach(checker => {
-//     checker.addEventListener('click', () => {
-//         check.forEach(checker => {
-//             if (checker.checked){
-//             }
-//         });
-//     });
-// });
+check.forEach(checker => {
+    checker.addEventListener('click', () => {
+        check.forEach(checker => {
+            if (checker.checked){
+                checker.checked = false;
+            }
+        });
+        
+        checker.checked = true;
+    });
+});
