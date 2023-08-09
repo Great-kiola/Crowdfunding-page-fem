@@ -297,8 +297,80 @@ section .aboutProject h1{
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
     z-index: 10;
-    overflow: none;
-    display: none;
+    /* overflow: none; */
+    /* display: none; */
+}
+
+.backProject{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    background-color: var(--white);
+    z-index: 100;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.backProjHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backProjHeading path{
+    fill: #000;
+    cursor: pointer;
+}
+
+.pledgeBox {
+    margin: 10px auto;
+}
+
+.pledge{
+    border: 2px solid hsl(0, 0%, 82%);
+    padding: 20px;
+    border-radius: 10px;   
+    margin-bottom: 10px;
+}
+
+.pledge p{
+    margin-left: 30px;
+    color: var(--Darkgray);
+    opacity: 50%;
+}
+
+.pledgeCheckbox input:hover, label:hover{
+    color: var(--moderateCyan);
+    cursor: pointer;
+}
+
+.pledgeCheckbox label{
+    margin-left: 15px;
+}
+
+.pledgeCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    outline: 2px solid var(--moderateCyan);
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+input[type="checkbox"]:checked{
+    background-color: var(--moderateCyan);
+    outline: none;
 }
 
 .text{
@@ -307,7 +379,7 @@ section .aboutProject h1{
     gap: 20px;
 }
 
-.text h1{
+.text h1, .backProjHeading h1{
     font-size: 1.3rem;
 }
 
@@ -336,3 +408,4 @@ section .aboutProject h1{
     --Darkgray: hsl(0, 0%, 48%);
     --white: #fff;
 }
+
