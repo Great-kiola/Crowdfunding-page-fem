@@ -122,7 +122,7 @@ section .riserContainer .Btnbookmark .btpBtn input:hover{
 section .numbers{
     background-color: var(--white);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 30px;
     padding: 50px;
     width: 700px;
@@ -130,6 +130,14 @@ section .numbers{
     border-radius: 10px;
     font-size: .9rem;
     text-align: left;
+}
+
+.numbersDiv{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    width: 700px;
+    font-size: .9rem;
 }
 
 .numbers h1{
@@ -145,16 +153,37 @@ section .numbers{
     padding-right: 50px;
 }
 
+.progress{
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    position: relative;
+}
+
+.progress::before{
+    content: "";
+    width: 80%;
+    height: 8px;
+    background-color: var(--moderateCyan);
+    position: absolute;
+    border-radius: 10px;
+}
+
 section .aboutProject{
     background-color: var(--white);
     display: flex;
-    align-items: center;
     gap: 30px;
     padding: 50px;
     width: 700px;
     flex-direction: column;
     text-align: left;
     border-radius: 10px;
+}
+
+section .aboutProject h1{
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .bambooStand{
@@ -189,6 +218,21 @@ section .aboutProject{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+
+.reward p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.reward p span{
+    font-size: .8rem;
+    font-weight: 500;
+    position: absolute;
+    top: 10;
+    margin-left: 5px;
 }
 
 .reward input{
