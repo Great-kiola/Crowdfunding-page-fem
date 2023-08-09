@@ -299,7 +299,7 @@ section .aboutProject h1{
     background: rgba(0, 0, 0, 0.7);
     z-index: 10;
     /* overflow: none; */
-    /* display: none; */
+    display: none;
 }
 
 .backProject{
@@ -307,12 +307,18 @@ section .aboutProject h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
+    width: 730px;
     background-color: var(--white);
     z-index: 100;
     padding: 50px;
     border-radius: 10px;
     display: none;
+}
+
+.backProject p{
+    margin: 15px auto;
+    color: hsl(0, 0%, 78%);
+    font-size: 1rem;
 }
 
 .backProjHeading {
@@ -337,25 +343,43 @@ section .aboutProject h1{
     margin-bottom: 25px;
 }
 
+.pledgeCheckbox label {
+    margin-left: 15px;
+}
+
+.pledgeCheckbox2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+
+.pledgeLeft p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .pledge p{
     margin-left: 30px;
     color: var(--Darkgray);
-    opacity: 50%;
 }
 
-.pledgeCheckbox input:hover, label:hover{
+.pledgeInputs input:hover, label:hover{
     color: var(--moderateCyan);
     cursor: pointer;
 }
 
-.pledgeCheckbox label{
+.pledgeInputs label{
     margin-left: 15px;
 }
 
-.pledgeCheckbox {
+.pledgeInputs {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+}
+
+.pledgeInputs p{
+    color: var(--moderateCyan);
 }
 
 input[type="checkbox"]{
@@ -391,8 +415,6 @@ input[type="checkbox"]:checked{
     color: var(--Darkgray);
     opacity: 60%;
 }
-
-
 
 .attribution {
     font-size: 11px;

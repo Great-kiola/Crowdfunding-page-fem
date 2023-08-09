@@ -7,9 +7,15 @@ overlay = document.querySelector('.overlay');
 let divIcon = document.querySelector('.divIcon'),
 BkmrkText = document.querySelector('.BkmrkText');
 
+let cancelIcon = document.getElementById('cancelIcon'),
+backProj = document.querySelector('.backProject');
+
+let check = document.querySelectorAll('.check');
+
+
 
 showBtn.addEventListener('click', () => {
-    thankYou.style.display = 'flex';
+    backProj.style.display = 'block';
     overlay.style.display = 'block';
 });
 
@@ -22,3 +28,17 @@ overlay.addEventListener('click', () => {
 divIcon.addEventListener('click', () => {
     BkmrkText.innerText = 'Bookmarked';
 });
+
+cancelIcon.addEventListener('click', () => {
+    backProj.style.display = 'none';
+    overlay.style.display = 'none';
+});
+
+// check.forEach(checker => {
+//     checker.addEventListener('click', () => {
+//         check.forEach(checker => {
+//             if (checker.checked){
+//             }
+//         });
+//     });
+// });
