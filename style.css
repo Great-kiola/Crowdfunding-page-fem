@@ -94,7 +94,7 @@ section .riserContainer .Btnbookmark .btpBtn input:hover{
 }
 
 .bookMark {
-    width: 150px;
+    width: 160px;
     display: flex;
     justify-content: flex-end;
     background-color: hsl(0, 0%, 90%);
@@ -180,6 +180,7 @@ section .aboutProject{
     flex-direction: column;
     text-align: left;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 section .aboutProject h1{
@@ -311,6 +312,7 @@ section .aboutProject h1{
     z-index: 100;
     padding: 50px;
     border-radius: 10px;
+    display: none;
 }
 
 .backProjHeading {
