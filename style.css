@@ -58,7 +58,7 @@ section .riserContainer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 35px;
     padding: 80px;
     width: 700px;
     margin: -50px 0px 20px 0px;
@@ -75,16 +75,48 @@ section .riserContainer .Btnbookmark{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 
 section .riserContainer .Btnbookmark .btpBtn input{
-    background-color: var(--Darkcyan);
+    background-color: var(--moderateCyan);
     cursor: pointer;
-    padding: 20px;
+    width: 150px;
+    padding: 15px;
     border-radius: 50px;
     border: none;
     color: var(--white);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+section .riserContainer .Btnbookmark .btpBtn input:hover{
+    background-color: var(--Darkcyan);
+}
+
+.bookMark {
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 40px;
+    padding: 12px 15px;
+    position: relative;
+}
+
+.bookMark .divIcon{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    cursor: pointer;
+}
+
+.bookmarkText{
+    display: flex;
+    align-items: center;
+}
+
+.bookMark .divIcon img {
+    width: 45px;
 }
 
 section .numbers{
@@ -102,13 +134,55 @@ section .aboutProject{
     background-color: var(--white);
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding: 50px;
     width: 700px;
     flex-direction: column;
     text-align: left;
     border-radius: 10px;
 }
+
+.bambooStand{
+    border: 1.5px solid hsl(0, 0%, 90%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bambooStand .heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: .6rem;
+}
+
+.bambooStand .heading h2{
+    color: var(--moderateCyan);
+    cursor: pointer;
+}
+
+.reward{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reward input{
+    background-color: var(--moderateCyan);
+    cursor: pointer;
+    width: 150px;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.reward input:hover{
+    background-color: var(--Darkcyan);
+}
+
 
 .riserContainer {
     background: var(--Darkgray);
