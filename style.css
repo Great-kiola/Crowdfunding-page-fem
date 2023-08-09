@@ -10,15 +10,24 @@ body {
     line-height: 1.5;
     min-height: 100vh;
     font-family: 'Commissioner', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 header{
+    background-image: url(./images/image-hero-desktop.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    z-index: -1;
+}
+
+header .menus{
     position: sticky;
     top: 0;
-    background-color: var(--Darkgray);
     width: 100%;
     display: flex;
     align-items: center;
@@ -33,23 +42,34 @@ header .links ul{
     list-style: none;    
 }
 
-ul li{
+header .menus .links ul li{
     margin: 0px 10px;
     color: var(--white);
     cursor: pointer;
 }
 
 section{
-    width: 50%;
-    height: 50vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
+    /* width: 800px; */
+    align-items: center;
+
 }
 
 section .riserContainer{
+    background-color: var(--moderateCyan);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.Btnbookmark{
+    display: flex;
+    gap: 20px;
 }
 
 .riserContainer {
