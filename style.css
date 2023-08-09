@@ -299,7 +299,7 @@ section .aboutProject h1{
     background: rgba(0, 0, 0, 0.7);
     z-index: 10;
     /* overflow: none; */
-    display: none;
+    /* display: none; */
 }
 
 .backProject{
@@ -312,7 +312,7 @@ section .aboutProject h1{
     z-index: 100;
     padding: 50px;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
 }
 
 .backProject p{
@@ -416,6 +416,55 @@ input[type="checkbox"]:checked{
     opacity: 60%;
 }
 
+.confirmPledge{
+    display: none;
+}
+
+hr{
+    width: 629px;
+    margin: auto -20px;
+    background-color: hsl(0, 0%, 82%);
+    opacity: 40%;
+    margin-bottom: 20px;
+}
+
+.enterPledge{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="number"]{
+    border: 1.5px solid var(--Darkgray);
+    width: 90px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+input[type="number"]:focus{
+    outline: 2.5px solid var(--moderateCyan);
+    border: none;
+}
+
+.confirm{
+    background-color: var(--moderateCyan);
+    cursor: pointer;
+    width: 100px;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.confirm:hover{
+    background-color: var(--Darkcyan);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -432,4 +481,3 @@ input[type="checkbox"]:checked{
     --Darkgray: hsl(0, 0%, 48%);
     --white: #fff;
 }
-

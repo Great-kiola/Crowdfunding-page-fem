@@ -10,7 +10,8 @@ BkmrkText = document.querySelector('.BkmrkText');
 let cancelIcon = document.getElementById('cancelIcon'),
 backProj = document.querySelector('.backProject');
 
-let check = document.querySelectorAll('.check');
+let check = document.querySelectorAll('.check'),
+confirmPledge = document.querySelectorAll('.confirmPledge');
 
 
 
@@ -41,7 +42,18 @@ check.forEach(checker => {
                 checker.checked = false;
             }
         });
-        
+
+        // confirmPledge.forEach(myPledge => {
+
+        //     confirmPledge.forEach(myPledge => {
+        //         myPledge.style.display = 'none';
+        //     });
+
+        //     myPledge.style.display = 'block';
+        // });
+
+
         checker.checked = true;
     });
+
 });
