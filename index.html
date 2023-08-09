@@ -18,13 +18,14 @@
   </head>
 
   <body>
+    <span class="overlay"></span>
     <main>
       <header>
         <div class="menus">
           <div class="logo">
             <img src="./images/logo.svg" alt="Logo image" />
           </div>
-  
+
           <div class="links">
             <ul>
               <li>About</li>
@@ -33,9 +34,26 @@
             </ul>
           </div>
         </div>
-
-        
       </header>
+
+      
+
+      <div class="thankYou">
+        <img src="./images/icon-check.svg" alt="Check svg" />
+
+        <div class="text">
+          <h1>Thanks for your support</h1>
+          <p>
+            Thanks for your support! Your pledge brings us one step closer to
+            sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an
+            email once our campaign is completed.
+          </p>
+        </div>
+
+        <div class="thankYouBtn">
+          <button class="gotIt">Got it!</button>
+        </div>
+      </div>
 
       <section>
         <div class="riserContainer">
@@ -51,12 +69,12 @@
 
           <div class="Btnbookmark">
             <div class="btpBtn">
-              <input type="button" value="Back this project" />
+              <input type="button" id="show-modal" value="Back this project" />
             </div>
 
             <div class="bookMark">
               <div class="divIcon">
-                <img src="./images/icon-bookmark.svg" alt="Bookmark Icon">
+                <img src="./images/icon-bookmark.svg" alt="Bookmark Icon" />
               </div>
 
               <div class="bookmarkText">
@@ -78,7 +96,7 @@
               <h1>5,007</h1>
               <p>total backers</p>
             </div>
-  
+
             <div class="daysLeft">
               <h1>56</h1>
               <p>days left</p>
@@ -87,14 +105,12 @@
 
           <div class="progress"></div>
         </div>
-
       </section>
 
       <section>
         <div class="aboutProject">
-
           <h1>About this project</h1>
-  
+
           <p>
             The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
             platform that elevates your screen to a more comfortable viewing
@@ -102,7 +118,7 @@
             improve your posture and make you more comfortable while at work,
             helping you stay focused on the task at hand.
           </p>
-  
+
           <p>
             Featuring artisan craftsmanship, the simplicity of design creates
             extra desk space below your computer to allow notepads, pens, and
@@ -159,12 +175,13 @@
 
             <div class="reward">
               <p>0 <span>left</span></p>
-              <input type="button" value="Out of stock" class="disabled"/>
+              <input type="button" value="Out of stock" class="disabled" />
             </div>
           </div>
         </div>
       </section>
     </main>
 
+    <script src="./script.js"></script>
   </body>
 </html>
