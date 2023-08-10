@@ -25,6 +25,7 @@ showBtn.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
     thankYou.style.display = 'none';
     overlay.style.display = 'none';
+    backProj.style.display = 'none';
 });
 
 
