@@ -26,7 +26,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Great-kiola/Crowdfunding-page-fem)
-- Live Site URL: [Live site URL]([https://your-live-site-url.com](https://great-kiola.github.io/Crowdfunding-page-fem/)
+- Live Site URL: [Live site URL]([https://your-live-site-url.com](https://great-kiola.github.io/Crowdfunding-page-fem/])
 
 ## Author
 
