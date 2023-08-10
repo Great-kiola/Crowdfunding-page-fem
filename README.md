@@ -1,14 +1,12 @@
 # Frontend Mentor - Crowdfunding product page
 
-![Design preview for the Crowdfunding product page coding challenge](./design/desktop-preview.jpg)
+<img src="./images/Completed project.png" alt="Completed Project">
 
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
@@ -25,16 +23,11 @@ Your users should be able to:
 - See the number of total backers increment by one after confirming a pledge
 - Toggle whether or not the product is bookmarked
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Great-kiola/Crowdfunding-page-fem)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Great-kiola](https://www.frontendmentor.io/profile/Great-kiola)
