@@ -301,6 +301,7 @@ section .aboutProject h1{
     z-index: 10;
     overflow: none;
     display: none;
+    pointer-events: none;
 }
 
 .backProject{

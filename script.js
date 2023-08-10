@@ -41,6 +41,7 @@ cancelIcon.addEventListener('click', () => {
 check.forEach(checker => {
     checker.addEventListener('click', () => {
         check.forEach(checker => {
+            
             if (checker.checked){
                 checker.checked = false;
 
