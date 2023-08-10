@@ -13,6 +13,8 @@ backProj = document.querySelector('.backProject');
 let check = document.querySelectorAll('.check'),
 confirmPledge = document.querySelectorAll('.confirmPledge');
 
+let confirm = document.querySelectorAll('.confirm'),
+gotit = document.querySelector('.gotIt');
 
 
 showBtn.addEventListener('click', () => {
@@ -40,20 +42,35 @@ check.forEach(checker => {
         check.forEach(checker => {
             if (checker.checked){
                 checker.checked = false;
+
+                confirmPledge.forEach(myPledge => {
+                    myPledge.style.display = 'block';
+                });
             }
         });
-
-        // confirmPledge.forEach(myPledge => {
-
-        //     confirmPledge.forEach(myPledge => {
-        //         myPledge.style.display = 'none';
-        //     });
-
-        //     myPledge.style.display = 'block';
-        // });
-
 
         checker.checked = true;
     });
 
 });
+
+confirm.forEach(accept => {
+    accept.addEventListener('click', (e) => {
+        e.preventDefault();
+        thankYou.style.display = 'flex';
+        backProj.style.display = 'none';
+    });
+});
+
+gotit.addEventListener('click', (e) => {
+    e.preventDefault();
+    thankYou.style.display = 'none';
+    overlay.style.display = 'none';
+    
+});
+
+// confirm.addEventListener('click', () => {
+//     thankYou.style.display = 'block';
+//     backProj.style.display = 'none';
+
+// });

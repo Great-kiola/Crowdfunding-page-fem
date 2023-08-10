@@ -203,6 +203,7 @@ section .aboutProject h1{
     flex-direction: column;
     gap: 20px;
     opacity: 30%;
+    cursor: not-allowed;
 }
 
 .bambooStand .heading{
@@ -420,6 +421,13 @@ input[type="checkbox"]:checked{
     display: none;
 }
 
+.enterPledgeInput label{
+    position: relative;
+    top: 0;
+    left: 25px;
+    font-size: .8rem;
+}
+
 hr{
     width: 629px;
     margin: auto -20px;
@@ -437,10 +445,10 @@ hr{
 input[type="number"]{
     border: 1.5px solid var(--Darkgray);
     width: 90px;
-    height: 30px;
+    height: 20px;
     margin-right: 10px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 27px;
     font-family: 'Commissioner', sans-serif;
 }
 
@@ -464,6 +472,7 @@ input[type="number"]:focus{
 .confirm:hover{
     background-color: var(--Darkcyan);
 }
+
 
 .attribution {
     font-size: 11px;
