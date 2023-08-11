@@ -70,9 +70,3 @@ gotit.addEventListener('click', (e) => {
     overlay.style.display = 'none';
     
 });
-
-// confirm.addEventListener('click', () => {
-//     thankYou.style.display = 'block';
-//     backProj.style.display = 'none';
-
-// });

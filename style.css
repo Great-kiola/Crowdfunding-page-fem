@@ -75,6 +75,7 @@ section .riserContainer .Btnbookmark{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 section .riserContainer .Btnbookmark .btpBtn input{
@@ -96,27 +97,28 @@ section .riserContainer .Btnbookmark .btpBtn input:hover{
 .bookMark {
     width: 160px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: hsl(0, 0%, 90%);
     border-radius: 40px;
-    padding: 12px 15px;
+    /* padding: 12px 15px; */
     position: relative;
 }
 
 .bookMark .divIcon{
-    position: absolute;
-    top: 30px;
-    left: 0;
     cursor: pointer;
+    margin-right: 8px;
 }
 
 .bookmarkText{
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 
 .bookMark .divIcon img {
     width: 45px;
+    margin: 0;
+    vertical-align: bottom;
 }
 
 section .numbers{
